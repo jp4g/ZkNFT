@@ -39,7 +39,7 @@ yarn snarkjs zkey verify zk/basic.r1cs zk/ptau/pot12_final.ptau zk/zkey/basic_fi
 yarn snarkjs zkey export verificationkey zk/zkey/basic_final.zkey zk/verification_key.json
 
 #verify
-yarn snarkjs groth16 prove zk/zkey/basic_final.zkey zk/basic.wtns zk/proof/public.json zk/proof/proof.json
+yarn snarkjs groth16 prove zk/zkey/basic_final.zkey zk/basic.wtns zk/proof/proof.json zk/proof/public.json
 yarn snarkjs groth16 verify zk/verification_key.json zk/proof/public.json zk/proof/proof.json
 
 # Export verifier smart contracts

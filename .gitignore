@@ -6,7 +6,8 @@ artifacts
 
 #zk
 zk/basic*
-zk/proof
-zk/ptau
-zk/witnesses
-zk/zkey
+zk/proof/*
+zk/ptau/*
+zk/*.wtns
+zk/zkey/*
+zk/verification_key.json

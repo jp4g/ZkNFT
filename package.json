@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.4",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
     "@openzeppelin/contracts": "^4.4.2",
     "circomlib": "^2.0.2",
     "circomlibjs": "^0.1.1",
